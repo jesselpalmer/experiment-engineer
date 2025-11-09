@@ -1,26 +1,41 @@
-# --- Web & Config ---
+# === Agent + LLM Tools ===
+aisuite==0.1.11
+anthropic
+docstring-parser
+markdown
+mistralai
+openai
+qrcode
+tavily-python>=0.7.12
+textstat
+vertexai
+
+# === Web Framework + API ===
 fastapi
-uvicorn[standard]
-pydantic>=2.7
-pydantic-settings
+pydantic
+pydantic[email]
 python-dotenv
 python-multipart
-jinja2
 requests
-httpx
+sqlalchemy
+uvicorn
 
-# --- DB & Migrations ---
-sqlalchemy>=2.0
-alembic
-psycopg2-binary
+# === Notebook Experience ===
+ipywidgets
+jupyter_server
+nbclassic
+notebook
 
-# --- Data & Eval ---
-pandas
-numpy
-scikit-learn
-scipy
+# === Data Analysis / Display (Optional Enhancements) ===
 duckdb
+matplotlib
+pandas
+seaborn
+tabulate
+tinydb
 
-# --- CLI & Utils ---
-typer
-pyyaml
+# === Machine Learning / NLP (Optional Enhancements) ===
+jinja2
+psycopg2-binary
+scikit-learn
+Wikipedia
