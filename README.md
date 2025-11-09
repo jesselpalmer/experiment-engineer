@@ -23,7 +23,7 @@ source venv/bin/activate     # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4.
+4. (Optional) Link this environment to your IDE or Jupyter notebook:
 
 ```bash
 python -m ipykernel install --user --name=venv
