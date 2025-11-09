@@ -1,6 +1,7 @@
-# Experiment Engineer
+# ExperimentKit
 
-An Agentic Growth Copilot for Planning, Preparing, and Evaluating Experiments.
+Open-source agentic infrastructure for planning, running, and evaluating product
+experiments.
 
 ## Setup
 
